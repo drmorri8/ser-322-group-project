@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title>CarDB Query Application</title>
+	<style type = "text/css">
+		body { font-family: arial, sans-serif }
+		div { font-size: 10pt;
+		text-align: center }
+		table { border: 0 }
+		td { padding-top: 2px;
+		padding-bottom: 2px;
+		padding-left: 10px;
+		padding-right: 10px }
+		.error { color: red }
+		.distinct { color: blue }
+	</style>
+</head>
+<body>
+	<h1>CarDB Query Application</h1>
+	<a href="car-db.html">home</a>
+	<br/><br/>
+	
+	<!-- Query Code goes in this field: --> 
+	<fieldset>	
+		<legend><font size = "4"><b>Car search</b></font></legend>
+		<form method = "post" action = "php/car-search.php">
+			<span class = "prompt">
+				Enter car name:<br />
+			</span>
+			<input type = "text" name = "carname" /><br />
+			<input type = "submit" value = "Search" />
+		</form>
+	</fieldset>
+</body>
