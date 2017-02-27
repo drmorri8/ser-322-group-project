@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample form to take user input in XHTML</title>
+    <style type = "text/css">
+        body { font-family: arial, sans-serif }
+        div { font-size: 10pt;
+        text-align: center }
+        table { border: 0 }
+        td { padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px }
+        .error { color: red }
+        .distinct { color: blue }
+    </style>
+</head>
+
+<body>
+    <h1>CarDB Query Application</h1>
+    <a href="CarDB.html"active= false>home</a>
+    <br/><br/>
+        
+    <fieldset>
+        <legend><font size = "4"><b>Home</b></font></legend>
+		<br/><i><b>Search cars by:</i></b>
+        <a href="php/search_vin.php">VIN</a>     
+        <a href="php/search_make_model_part1.php">Make and Model</a>
+        <a href="php/search_mpg_range.php">MPG</a>
+        <br/>
+        <br/><i><b>Search Performance Specifications by:</i></b>
+        <a href="php/search_spec_by_vin.php">VIN</a>
+        <br/>      
+        <br/><i><b>Search engines by:</i></b>
+        <a href="php/search_engine_code.php">Engine code</a>
+		<br/>      
+        <br/><i><b>Search drive-trains by:</i></b>
+        <a href="php/search_drive_train_code.php">Transmissions code</a>
+        </fieldset>
+    
+</body>
